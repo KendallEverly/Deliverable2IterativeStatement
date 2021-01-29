@@ -19,11 +19,9 @@ namespace Deliverable2IterativeStatement
                 if ((value_of_input > 0) && (value_of_input <= 100))
                 {
                     Console.WriteLine("executing for a loop");
-                    //show value user entered
-                    Console.WriteLine("You have entered" + value_of_input.ToString());
                     for (int i=0; i < value_of_input; i++)
                     {
-                        Console.WriteLine("This is the current integer value in the loop" + i.ToString());
+                        Console.WriteLine("You have entered " + value_of_input.ToString() + " This is the current integer value in the loop" + i.ToString());
                     }
                     //exit the program
                     Console.WriteLine("Press any key to exit the program");
